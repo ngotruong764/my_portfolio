@@ -1,0 +1,31 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="navbar-logo">
+      <h2>{{authorName}}</h2>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="navbar-menu">
+      <li class="navbar-item">
+        <a href="#" class="navbar-link" (click)="onNavItemClick('Home')">Home</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link" (click)="onNavItemClick('Services')">Services</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link" (click)="onNavItemClick('Resume')">Resume</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link" (click)="onNavItemClick('Work')">Work</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link" (click)="onNavItemClick('Contact')">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Hire Me Button -->
+    <div class="navbar-cta">
+      <button class="hire-btn" (click)="onHireMe()">Hire me</button>
+    </div>
+  </div>
+</nav>
